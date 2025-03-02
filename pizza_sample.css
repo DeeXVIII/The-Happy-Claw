@@ -1,0 +1,734 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap');
+* {
+  box-sizing: border-box;
+  font-family: Poppins, sans-serif;
+}
+
+/* General style for the whole pages */
+body {
+  background: url('images/BG2.webp') no-repeat fixed center center;
+  background-size: cover;
+  margin: 0;
+}
+/* header styles */
+#header-title {
+  margin-right: 15em;
+  margin-left: 0;
+  font-size: 30px;
+  font-weight: bold;
+}
+.header {
+  width: 100%;
+  padding: 10px;
+  margin: 0;
+  color: #333333;
+  text-shadow:  
+    -1px -1px 0 #E0E0E0,  
+     1px -1px 0 #E0E0E0,  
+    -1px  1px 0 #E0E0E0,  
+     1px  1px 0 #E0E0E0;
+}
+.header-button {
+  font-family: Poppins, sans-serif;
+  font-weight: bold;
+  border: none;
+  border-radius: 20px;
+  height: 40px;
+  width: 100px;
+}
+.button-one {
+  color: white;
+  background-color: #165BFB;
+}
+
+.button-two {
+  border: 3px solid #165BFB;
+  background-color: rgb(231, 225, 225);
+}
+
+.header-title {
+  text-align: center;
+  color: #fff;
+  line-height: 70px;
+}
+
+.logo {
+  float: left;
+  border-radius: 10px;  
+  
+  box-shadow: 2px 2px 5px gray;
+}
+
+.nav {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.nav li {
+  margin:0 30px 0 auto;
+  height: 50px;
+  line-height: 50px;
+  list-style: none;
+  text-align: right;
+}
+.nav li a{
+  color: #333;
+  text-decoration: none;
+  font-weight: 700;
+}
+.nav li a:hover {
+  border-bottom:3px solid #dd7f78;
+}
+
+/* Home Page */
+.top-img {
+  width: 100%;
+  height: 380px;
+  background: url("images/Cooked\ Crab.png") no-repeat center center;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.9;
+  border-radius: 5px;
+}
+.features {
+  margin-top: 50px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.feature {
+  background-color: white;
+  padding: 5px;
+  border: 1px solid white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 22%;
+  min-height: 250px;
+  margin:20px 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.feature p {
+  color: rgba(0,0,0,0.5);
+  font-weight: bolder;
+  flex-grow: 1;
+}
+
+.feature h3 {
+  margin: 10px 0;
+}
+.icon {
+  font-size: 3em;
+  display: inline-block;
+  transition: filter 0.3s ease-in-out;
+}
+
+.icon:hover {
+  filter: brightness(0) saturate(100%) invert(20%) sepia(80%) saturate(2000%) hue-rotate(-5deg) brightness(80%) contrast(90%);
+}
+.menu-heading {
+  margin-bottom: 0;
+  text-align: center;
+  font-size: xx-large;
+  color: #333333;
+  text-shadow:  
+    -1px -1px 0 #E0E0E0,  
+     1px -1px 0 #E0E0E0,  
+    -1px  1px 0 #E0E0E0,  
+     1px  1px 0 #E0E0E0; 
+}
+
+.crab-heading {
+  margin-bottom: -2.5%;
+  font-size: 1.2em;
+  margin-left: 12%;
+  color: #333333;
+  text-shadow:  
+    -1px -1px 0 #E0E0E0,  
+     1px -1px 0 #E0E0E0,  
+    -1px  1px 0 #E0E0E0,  
+     1px  1px 0 #E0E0E0; 
+}
+.menu {
+  width: 75%;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+.pizza {
+  display: flex;
+  align-items: flex-start;
+  margin: 30px 0;
+}
+.pizza-info {
+  padding-left: 100px;
+  color: #333333;
+  font-weight: bold;
+  text-shadow:  
+    -1px -1px 0 #E0E0E0,  
+     1px -1px 0 #E0E0E0,  
+    -1px  1px 0 #E0E0E0,  
+     1px  1px 0 #E0E0E0;  /* Creates a soft dirty white outline */
+  font-size: 1em;
+}
+.pizza p {
+  padding-left: 10px;
+  border-left: 7px solid #c68e8a;
+  text-align: justify;
+}
+.pizza img {
+  border-radius: 10px;
+  width: 450px;
+  height: 400px;
+  box-shadow: 5px 5px 15px rgba(128, 128, 128, 0.6);
+}
+
+/* Contact Us */
+.main-contact-wrapper {
+  margin: auto;
+  /* margin: 5em auto; */
+  display: flex;
+  width: 100%;
+  color: #333333;
+  font-weight: bold;
+  text-shadow:  
+    -1px -1px 0 #E0E0E0,  
+     1px -1px 0 #E0E0E0,  
+    -1px  1px 0 #E0E0E0,  
+     1px  1px 0 #E0E0E0;
+   
+}
+.contact {
+  margin:8.5em 0 6.5em;
+  width: 40%;
+  
+}
+.contact-info {
+  margin-left: 250px;
+  text-align: justify;
+  background: url('images/stroke3.png') no-repeat center center;
+  background-size: contain;
+}
+.contact-form {
+  padding-left: 100px;
+}
+
+.fields {
+  font-weight: bold;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+}
+.email-field {
+  width: 318px;
+  border-radius: 5px;
+  border: none;
+}
+.group {
+  display: inline-block;
+  text-align: left;
+}
+#comments {
+  width: 318px;
+  border: none;
+  border-radius: 5px;
+}
+.contact-button {
+  width: 150px;
+  color: white;
+  background-color: #E95D0F;
+  margin-left: 18%;
+}
+.contact-button:hover {
+  background-color: #dd7f78;
+}
+/* Footer for every page */
+.footer{
+  width: 100%;
+  height: 70px;
+  background-color: #FBC490;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-text {
+  color: #fff;
+  font-size: 9x;
+  text-align: center;
+  line-height: 70px;
+  margin: 0;
+  padding: 0;
+}
+/* About Us Page */
+.top-img-2 {
+  width: 25%;
+  display: inline-block;
+  margin: 30px 20px;
+}
+
+.top-img-2 img {
+  width: 150px;
+  height: 150px;
+  background-color:  #D3D3D3;
+  border: 2px solid  whitesmoke;
+  border-radius: 15px;
+}
+.about-main-content {
+  text-align: center;
+  margin:5em auto;
+  width: 100%;
+  color: #333333;
+  font-weight: bold;
+  text-shadow:  
+    -1px -1px 0 #E0E0E0,  
+     1px -1px 0 #E0E0E0,  
+    -1px  1px 0 #E0E0E0,  
+     1px  1px 0 #E0E0E0;
+}
+
+.top-img-2 p {
+  text-align: justify;
+}
+/* Order Page */
+
+.pizza-order img, .order-menu img, .extra-order img {
+  width: 250px;
+  height: 250px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px rgba(128, 128, 128, 0.6);
+}
+.price {
+  color: #FF4500;
+  font-size: 25px;
+  font-weight: 900;
+}
+.order-menu, .extras-menu {
+  width: 100%;
+}
+
+.pizza-order,
+.extra-order{
+  display: inline-block;
+  width: 24.5555%;
+  color: #333333;
+  font-weight: bold;
+  text-shadow:  
+    -1px -1px 0 #E0E0E0,  
+     1px -1px 0 #E0E0E0,  
+    -1px  1px 0 #E0E0E0,  
+     1px  1px 0 #E0E0E0;
+}
+
+.order-menu,
+.extras-menu {
+  text-align: center;
+}
+
+.order-heading {
+  font-size: xx-large;
+  text-align: center;
+  color: #333333;
+  font-weight: bold;
+  text-shadow:  
+    -1px -1px 0 #E0E0E0,  
+     1px -1px 0 #E0E0E0,  
+    -1px  1px 0 #E0E0E0,  
+     1px  1px 0 #E0E0E0;
+}
+/* Order Form */
+.order-title {
+  text-align: center;
+  font-size: xx-large;
+  padding-top: 1%;
+}
+.order {
+  width: 100%;
+  margin: 0 auto;
+  padding-bottom: 50px;
+  color: #333333;
+  font-weight: bold;
+  text-shadow:  
+    -1px -1px 0 #E0E0E0,  
+     1px -1px 0 #E0E0E0,  
+    -1px  1px 0 #E0E0E0,  
+     1px  1px 0 #E0E0E0;
+}
+
+.order form {
+  margin: auto;
+  width: 80%;
+  padding: 20px 0;
+}
+
+.order table {
+  margin: 0 auto;
+  border: solid #c68e8ac6;
+  border-radius: 2px;
+}
+
+.order tr {
+  margin: 10px 0;
+  height: 60px;
+}
+
+.order td {
+  padding: 0 20px;
+}
+.order-fields {
+  border: none;
+  height: 40px;
+  width: 200px;
+  border-radius: 5px;
+}
+#order-comments, #order-submit {
+  border: none;
+  width: 200px;
+  border-radius: 5px;
+}
+#order-submit {
+  height: 40px;
+  background-color: #FF4500;
+  color: white;
+}
+#order-submit:hover {
+  background-color: #dd7f78;
+}
+
+/* Mobile devices */
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  #header-title {
+    margin-right: 0;
+  }
+  .nav {
+    display: block;
+  }
+  .nav li {
+    text-align: center;
+    margin: 0;
+  }
+  .logo {
+    display: none;
+  }
+  .top-img {
+    width: 100%;
+    height: 300px;
+  }
+  .feature {
+    margin:10px auto;
+    width: 100%;
+  }
+  .pizza img {
+    width: 100%;
+  }
+  .pizza{
+    text-align: center;
+    width: 100%;
+    display: block;
+    margin: auto;
+  }
+  .pizza-info {
+    padding: 0;
+  }
+  .pizza p {
+    border: none;
+    text-align: justify;
+    padding:0;
+  }
+  .main-contact-wrapper {
+    width: 100%;
+    display: block;
+    margin: auto;
+  }
+  .contact {
+    width: 90%;
+    padding: 30px;
+  }
+  .contact-info {
+    margin: 23px;
+    text-align: justify;
+  }
+  .contact-info h1 {
+    text-align: center;
+  }
+  .contact-form{
+    padding:0 15px 10px;
+    margin: 20px;
+  }
+  .group {
+    width: 100%;
+  }
+  .fields{
+    width: 100%;
+  }
+  .email-field, #comments {
+    width: 100%;
+  }
+  .top-img-2 {
+    display: block;
+    width: 90%;
+    margin: 18px auto;
+    padding: 10px;
+  }
+  .top-img-2 p {
+    font-size: 20px;
+  }
+  .pizza-order, .extra-order {
+    display: block;
+    margin: 10px auto;
+    width: 100%;
+  }
+  .order form{
+    width: 90%;
+    margin: 0 auto;
+  }
+  .order-fields, #order-comments, #order-submit {
+    width: 150px;
+  }
+  .order-menu, .extra-order {
+    width: 100%;
+    margin: 30px auto;
+  }
+  .order-menu img , .extra-order img{
+    width: 250px;
+    height: 250px;
+  }
+  .order-menu h2, .extra-order h2 {
+    margin:0 auto;
+  }
+}
+
+/* smartphone、tablets */
+@media screen and (min-width:481px) and (max-width:768px) { 
+  #header-title {
+    margin-right: 0;
+  }
+  .nav {
+    display: block;
+  }
+  .nav li {
+    text-align: center;
+    margin: 0;
+  }
+  .logo {
+    display: none;
+  }
+  .top-img {
+    width: 100%;
+    height: 300px;
+  }
+  .feature {
+    margin:10px auto;
+    width: 80%;
+  }
+  .pizza img {
+    width: 100%;
+  }
+  .pizza{
+    text-align: center;
+    width: 100%;
+    display: block;
+    margin: auto;
+  }
+  .pizza-info {
+    padding: 0;
+  }
+  .pizza p {
+    text-align: justify;
+    padding-left: 7px;
+  }
+  .main-contact-wrapper {
+    width: 100%;
+    display: block;
+  }
+  .contact {
+    margin: auto;
+    width: 90%;
+  }
+  .contact-info {
+    width: 80%;
+    padding: 10px;
+  }
+  .group {
+    width: 100%;
+  }
+  .fields, #comments {
+    width: 100%;
+  }
+  .contact-form {
+    width: 70%;
+    padding: 10px;
+    margin:auto;
+    text-align: justify;
+  }
+  .top-img-2 {
+    display: block;
+    width: 90%;
+    margin: 18px auto;
+    padding: 10px;
+  }
+  .top-img-2 p {
+    font-size: 25px;
+  }
+  .pizza-order, .extra-order {
+    display: block;
+    margin: 10px auto;
+    width: 100%;
+  }
+  .order form{
+    width: 100%;
+    margin: 0 auto;
+  }
+  /* .order-fields, #order-comments, #order-submit {
+    width: 180px;
+  } */
+  .order-menu{
+    width: 100%;
+    margin: 30px auto;
+  }
+  .order-menu img , .extra-order img{
+    width: 300px;
+    height: 300px;
+  }
+  .order-menu h2, .extra-order h2 {
+    margin:0 auto;
+  }
+}
+
+/* laptop */
+@media screen and (min-width:769px) and (max-width:1024px) {
+  #header-title {
+    margin: 0;
+  }
+  .nav {
+    text-align: center;
+  }
+  .header {
+    margin: auto;
+    padding: 10px;
+  }
+  .nav li {
+    text-align: center;
+    margin: auto;
+  }
+  .header-button {
+    width: 75px;
+  }
+  .logo {
+    float: left;
+    margin: 0;
+  }
+  .top-img {
+    width: 100%;
+    height: 300px;
+  }
+  .feature {
+    margin:10px 10px;
+    width: 40%;
+  }
+  .menu {
+    width: 90%;
+    margin:0 auto;
+  }
+  .pizza {
+    width: 100%;
+    margin:40px 0;
+  }
+  .pizza-info h3 {
+    margin-top:0;
+    padding-left: 50px;
+  }
+  .pizza-info {
+    padding-left: 40px;
+  }
+  .pizza img {
+    width: 50%;
+  }
+  .contact {
+    width: 40%;
+    margin: 5em auto;
+  }
+  .contact-info {
+    padding: 10px;
+  }
+  .contact-form {
+    padding: 10px;
+    text-align: justify;
+  }
+  .group {
+    width: 100%;
+  }
+  .fields, #comments {
+    width: 100%;
+  }
+  .top-img-2 {
+    display: block;
+    width: 90%;
+    margin: 18px auto;
+    padding: 10px;
+  }
+  .top-img-2 p {
+    font-size: 25px;
+  }
+  .pizza-order, .extra-order {
+    margin: 10px auto;
+    width: 40%;
+  }
+  .order form{
+    width: 100%;
+    margin: 0 auto;
+  }
+  .order-menu {
+    width: 100%;
+    margin: 30px auto;
+  }
+  .order-menu img, .extra-order img{
+    width: 280px;
+    height: 280px;
+  }
+  .order-menu h2, .extra-order h2 {
+    margin:0 auto;
+  }
+}
+@media screen and (min-width: 1025px) {
+  #header-title {
+    margin: 0;
+  }
+  .nav {
+    text-align: center;
+  }
+  .header {
+    margin: auto;
+    padding: 10px;
+  }
+  .nav li {
+    text-align: center;
+    margin: auto;
+  }
+  .header-button {
+    width: 75px;
+  }
+  .logo {
+    float: left;
+    margin: 0;
+  }
+  .contact {
+    width: 40%;
+  }
+  .contact-info {
+    padding:0 50px;
+    margin: 100px auto;
+  }
+  .contact-form {
+    padding: 10px;
+    text-align: justify;
+  }
+  .top-img-2 {
+    width: 29%;
+  }
+}
